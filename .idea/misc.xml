@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/AndroidStudio/cache/gradle/caches/transforms-3/a5d62e821c881fdba8c7b69039efc5ed/transformed/jetified-appcompat-resources-1.2.0/res/drawable/abc_vector_test.xml" value="0.334375" />
+        <entry key="..\:/AndroidStudio/Works/Jetpack/motionlayout/src/main/res/layout/activity_basic_movement.xml" value="0.27898550724637683" />
+        <entry key="..\:/AndroidStudio/Works/Jetpack/motionlayout/src/main/res/layout/activity_coordinator_layout.xml" value="0.309375" />
+        <entry key="..\:/AndroidStudio/Works/Jetpack/motionlayout/src/main/res/layout/activity_key_frame_position.xml" value="0.27898550724637683" />
+        <entry key="..\:/AndroidStudio/Works/Jetpack/motionlayout/src/main/res/layout/activity_main.xml" value="0.27898550724637683" />
         <entry key="..\:/AndroidStudio/Works/Jetpack/room/src/main/res/layout/activity_main.xml" value="0.309375" />
         <entry key="..\:/AndroidStudio/Works/Jetpack/room/src/main/res/layout/item_student.xml" value="0.18802083333333333" />
       </map>
