@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/tools">
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@+id/start"
+        app:duration="1000"
+        app:motionInterpolator="linear">
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@id/view"
+            app:touchAnchorSide="right" />
+    </Transition>
 
     <ConstraintSet android:id="@+id/start">
         <Constraint android:id="@+id/view">
@@ -30,14 +41,5 @@
         </Constraint>
     </ConstraintSet>
 
-    <Transition
-        app:constraintSetEnd="@id/end"
-        app:constraintSetStart="@+id/start"
-        app:duration="1000"
-        app:motionInterpolator="linear">
-        <OnSwipe
-            app:dragDirection="dragRight"
-            app:touchAnchorId="@id/view"
-            app:touchAnchorSide="right" />
-    </Transition>
+
 </MotionScene>

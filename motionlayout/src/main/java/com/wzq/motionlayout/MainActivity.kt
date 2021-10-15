@@ -7,7 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.core.view.setPadding
 import androidx.recyclerview.widget.RecyclerView
+import com.wzq.motionlayout.baseic.BasicMovementActivity
+import com.wzq.motionlayout.baseic.KeyFramePositionActivity
+import com.wzq.motionlayout.coordinator.CoordinatorLayoutActivity
 import com.wzq.motionlayout.databinding.ActivityMainBinding
+import com.wzq.motionlayout.drawerlayout.DrawerLayoutActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         funcations.add(Pair("基本运动", BasicMovementActivity::class.java))
         funcations.add(Pair("关键帧位置", KeyFramePositionActivity::class.java))
         funcations.add(Pair("CoordinatorLayout", CoordinatorLayoutActivity::class.java))
+        funcations.add(Pair("DrawerLayout", DrawerLayoutActivity::class.java))
 
 
         viewBinding.recyclerview.adapter = object : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

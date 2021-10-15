@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutDescription="@xml/activity_key_frame_position_scene"
-    tools:context=".KeyFramePositionActivity">
+    tools:context=".baseic.KeyFramePositionActivity">
 
     <View
         android:id="@+id/view"

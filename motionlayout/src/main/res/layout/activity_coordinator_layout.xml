@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CoordinatorLayoutActivity">
+    tools:context=".coordinator.CoordinatorLayoutActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="60dp">
+        android:layout_height="200dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <com.google.android.material.appbar.CollapsingToolbarLayout
+        <com.wzq.motionlayout.utisl.CollapsibleToolbar
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layoutDirection="@xml/activity_coordinator_layout_scene"
-            app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed">
+            android:minHeight="60dp"
+            app:layoutDescription="@xml/activity_coordinator_layout_scene"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
                 android:id="@+id/background"
@@ -34,7 +35,16 @@
                 android:textSize="32dp"
                 android:transformPivotX="0dp"
                 android:transformPivotY="0dp" />
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+            <TextView
+                android:id="@+id/sublabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="California"
+                android:textColor="#FFF"
+                android:textSize="24sp"
+                app:fontFamily="cursive" />
+        </com.wzq.motionlayout.utisl.CollapsibleToolbar>
 
 
     </com.google.android.material.appbar.AppBarLayout>

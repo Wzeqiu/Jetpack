@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jetpack">
         <activity
-            android:name=".CoordinatorLayoutActivity"
+            android:name=".drawerlayout.DrawerLayoutActivity"
             android:exported="true" />
         <activity
-            android:name=".KeyFramePositionActivity"
+            android:name=".coordinator.CoordinatorLayoutActivity"
             android:exported="true" />
         <activity
-            android:name=".BasicMovementActivity"
+            android:name=".baseic.KeyFramePositionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".baseic.BasicMovementActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
